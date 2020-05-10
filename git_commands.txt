@@ -1,0 +1,7 @@
+C:\Users\rjunior\Documents\Git>git clone https://github.com/rlojunior/sandbox.git
+
+git add filename
+
+git commit -m "commit message here"
+
+git push
