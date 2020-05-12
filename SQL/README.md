@@ -1,28 +1,16 @@
-# DBAS4002-Assignments
+# About this folder
 
-## Notes:
+Here you will find 4 folders with the step I followed to create a database in
+Mysql Server. 
 
-### Beginning the assignment:
+## The purpose of this project is:
+>To design an effective helpdesk ticket system, nicknamed “Speeding Tickets”, that
+>will be used in a standard IT department to manage issues.
 
-1) Clone this assignment to a folder on your external harddrive, OneDrive, or other convenient location.
-2) Review the details of the assignment by reading "Assignment 1 â€“ Speeding Ticket Database Design.pdf".
-3) Create any new documents, like the ERD or Data Dictionary, in the cloned folder.
+## The importance of create a helpdesk ticket system:
+>Every IT department can benefit from a helpdesk ticket system. It allows users to
+>submit issues to the IT department with ease. It keeps the IT department organized
+>and efficient, keeping a record of problems and solutions while keeping stress down.
+>It allows a continuous channel of communication between the users and the
+>technicians, and it ensures that everyone is served in a timely and ordered manner.
 
-### Submitting the assignment:
-
-1) Complete all required documents in the appropriate formats (e.g. VPP, PDF, Markdown, etc.).
-2) Save all documents to the cloned folder.
-3) Upload a PDF of the ERD and Data Dictionary to the Brightspace assignment folder by the deadline.
-4) Make sure all files are added to Git in DataGrip.
-5) For your final commit, use the description "assignment 1 completed".
-6) Push the final submission to GitHub by the deadline.
-7) In GitHub, create a new release/tag for your assignment called "Assignment 1".
-
-### Future use:
-
-All future assignments will use this same repository to store all documentation and scripts created.
-
-**If you have any questions about this process, please ask your instructor!**
-
-## Testing Push To Students
-## Testing Again!
