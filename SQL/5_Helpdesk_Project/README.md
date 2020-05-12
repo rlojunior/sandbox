@@ -1,10 +1,10 @@
 # About this folder
 
-Here you will find 4 folders with the step I followed to create a database in
+Here you will find 4 folders with the steps I followed to create a database in
 Mysql Server. 
 
 ## The purpose of this project is:
->To design an effective helpdesk ticket system, nicknamed “Speeding Tickets”, that
+>To design an effective helpdesk ticket system, nicknamed â€œSpeeding Ticketsâ€, that
 >will be used in a standard IT department to manage issues.
 
 ## The importance of create a helpdesk ticket system:
