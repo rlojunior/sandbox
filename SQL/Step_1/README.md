@@ -19,8 +19,8 @@
 ### Files you will find here:
 
 * ERD.pdf
-...An Entity-Relationship Diagram for your ticket database using Visual
-...Paradigm.
+  An Entity-Relationship Diagram for your ticket database using Visual  
+  Paradigm.
 
 * Data_Dictionary.md
 ...A Data Dictionary document that contains enough information to
