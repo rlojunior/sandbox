@@ -1,10 +1,11 @@
-# Reynaldo_Junior
-## Hi everyone!
->Try not to become a man of success,<br/>
->but rather try to become a man of value.
-### I'm Reynaldo Jr.
-* IT Data Analycs Student :metal:
-* I like to play guitar
-* I like to plat tennis
+## In this folder:
 
+* **1_Input_Output** - CONSOLE APPLICATIONS, VARIABLES, INPUT AND OUTPUT
 
+* **2_Decisions_Functions** - DECISIONS AND FUNCTIONS
+
+* **3_Loops_Lists** - LOOPS AND LISTS
+
+* **4_FileIO_2DLists** - FILE I/O & 2D LISTS
+
+* **5_Final_Project_GUI** - GRAPHICAL USER INTERFACE (GUI) PROGRAMMING

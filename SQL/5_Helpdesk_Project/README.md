@@ -14,3 +14,5 @@ Mysql Server.
 >It allows a continuous channel of communication between the users and the
 >technicians, and it ensures that everyone is served in a timely and ordered manner.
 
+
+*Winter Term/2020*

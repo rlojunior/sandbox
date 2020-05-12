@@ -1,0 +1,77 @@
+DROP DATABASE IF EXISTS DogKennel;
+
+CREATE DATABASE DogKennel;
+
+USE DogKennel;
+
+DROP TABLE IF EXISTS Client;
+CREATE TABLE Client (
+    ClientID INT(11) PRIMARY KEY,
+    FirstName VARCHAR(32) NOT NULL,
+    LastName VARCHAR(32) NOT NULL,
+    Address VARCHAR(80) NOT NULL,
+    PhoneNumber  VARCHAR(12) NOT NULL
+);
+
+DROP TABLE IF EXISTS Dog;
+CREATE TABLE Dog (
+    DogID INT(11) PRIMARY KEY,
+    Name VARCHAR(32) NOT NULL,
+    Breed VARCHAR(32) NOT NULL,
+    FatherName INT(11),
+    MotherName INT(11),
+    Gender VARCHAR(32) NOT NULL,
+    Shots VARCHAR(3) NOT NULL,
+    DateOfBirth DATE NOT NULL,
+    Status VARCHAR(80) NOT NULL
+);
+
+DROP TABLE IF EXISTS Purchase;
+CREATE TABLE Purchase (
+    DogID INT(11) NOT NULL,
+    ClientID INT(11) NOT NULL,
+    DayofPurchase DATE NOT NULL,
+    PurchasePrice FLOAT NOT NULL
+);
+
+ALTER TABLE Purchase
+    DROP CONSTRAINT IF EXISTS PK__Purchase;
+
+ALTER TABLE Purchase
+    ADD CONSTRAINT PK__Purchase
+    PRIMARY KEY (DogID,ClientID);
+
+ALTER TABLE Purchase
+    DROP CONSTRAINT IF EXISTS FK__Dog__DogID;
+
+ALTER TABLE Purchase
+    ADD CONSTRAINT FK__Dog__DogID
+    FOREIGN KEY (DogID)
+    REFERENCES Dog (DogID);
+
+
+ALTER TABLE Purchase
+    DROP CONSTRAINT IF EXISTS FK__Client__ClientID;
+
+ALTER TABLE Purchase
+    ADD CONSTRAINT FK__Client__ClientID
+    FOREIGN KEY (ClientID)
+    REFERENCES Client (ClientID);
+
+
+ALTER TABLE Dog
+    DROP CONSTRAINT IF EXISTS FK__Dog2__DogID;
+
+ALTER TABLE Dog
+    ADD CONSTRAINT FK__Dog2__DogID
+    FOREIGN KEY (FatherName)
+    REFERENCES Dog (DogID);
+
+
+ALTER TABLE Dog
+    DROP CONSTRAINT IF EXISTS FK__Dog3__DogID;
+
+ALTER TABLE Dog
+    ADD CONSTRAINT FK__Dog3__DogID
+    FOREIGN KEY (MotherName)
+    REFERENCES Dog (DogID);
